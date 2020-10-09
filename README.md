@@ -10,9 +10,9 @@ Modify the python source:
  
 ## How to run
 The script is intended to run via cron job, I do it this way - add following line to your crontab file:
-
+```
 * *     * * *   marty   python3 /home/marty/bin/uradmon_get.py
-
+```
 Of course modify your username and path to file. 
 
 
